@@ -1,0 +1,30 @@
+{
+  "name": "git-release-tracker",
+  "version": "1.0.0",
+  "description": "Bot Discord pour surveiller les releases de dépôts Git",
+  "main": "index.js",  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "test": "node test.js",
+    "test:tor": "node test-tor.js",
+    "diagnose": "node diagnose-tor.js",
+    "reset": "node reset.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "git",
+    "releases",
+    "tracker"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "cheerio": "^1.0.0-rc.12",
+    "cron": "^3.1.6",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1",
+    "socks-proxy-agent": "^8.0.5"
+  }
+}
