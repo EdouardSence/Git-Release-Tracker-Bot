@@ -2,7 +2,8 @@
   "name": "git-release-tracker",
   "version": "1.0.0",
   "description": "Bot Discord pour surveiller les releases de dépôts Git",
-  "main": "index.js",  "scripts": {
+  "main": "index.js",
+  "scripts": {
     "start": "node index.js",
     "dev": "node --watch index.js",
     "test": "node test.js",

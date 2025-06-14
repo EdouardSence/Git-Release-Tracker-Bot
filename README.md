@@ -75,6 +75,7 @@ node test-tor.js
 ### 3. Ports Tor supportés
 
 Le bot détecte automatiquement Tor sur ces ports :
+
 - **9050** : Service Tor standard (Linux/macOS)
 - **9150** : Tor Browser (Windows)
 - **9051, 9151** : Ports alternatifs
@@ -128,9 +129,9 @@ node reset.js             # Réinitialiser le stockage des releases
 
 3. **Vérification périodique** : Configurable via `CHECK_INTERVAL_MINUTES` (défaut: 30 minutes)
 
-3. **Stockage de l'état** : Les dernières releases sont sauvegardées dans `last_releases.json`
+4. **Stockage de l'état** : Les dernières releases sont sauvegardées dans `last_releases.json`
 
-4. **Notifications** : Messages privés Discord avec embed contenant :
+5. **Notifications** : Messages privés Discord avec embed contenant :
    - Nom du projet
    - Version/tag de la release
    - Nom de la release
@@ -212,10 +213,12 @@ Le bot affiche des logs dans la console :
 ### Problèmes Tor
 
 1. **"Aucun service Tor trouvé"** :
+
    - Installez et démarrez Tor Browser ou le service Tor
    - Vérifiez que les ports 9050/9150 sont ouverts
 
 2. **"Timeout" sur les sites .onion** :
+
    - Augmentez le timeout dans le code (actuellement 15-20s)
    - Vérifiez votre connexion Tor avec `node test-tor.js`
 
