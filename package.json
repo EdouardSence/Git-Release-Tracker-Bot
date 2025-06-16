@@ -9,8 +9,11 @@
     "test": "node test.js",
     "test:tor": "node test-tor.js",
     "diagnose": "node diagnose-tor.js",
-    "reset": "node reset.js"
-  },  "keywords": [
+    "reset": "node reset.js",
+    "release": "powershell -ExecutionPolicy Bypass -File create-release.ps1",
+    "release:bash": "bash create-release.sh"
+  },
+  "keywords": [
     "discord",
     "bot",
     "git",

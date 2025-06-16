@@ -5,24 +5,28 @@
 ## 🌟 Fonctionnalités principales
 
 ### ✅ Surveillance multi-plateformes
+
 - **GitHub** - API REST officielle avec authentification optionnelle
-- **GitLab** - API REST + fallback scraping HTML 
+- **GitLab** - API REST + fallback scraping HTML
 - **Forgejo/Gitea** - API REST + fallback scraping HTML
 - **Sites .onion** - Connexion sécurisée via réseau Tor
 
 ### 🧅 Innovation : Support Tor intégré
+
 - **Détection automatique** du port Tor (9050, 9150, 9051, 9151)
 - **Diagnostic complet** avec scripts dédiés
 - **Accès aux dépôts .onion** comme Torzu via le réseau Tor
 - **Configuration automatique** du proxy SOCKS5
 
 ### 🔔 Notifications intelligentes
+
 - **Messages privés Discord** avec embeds riches
 - **Évite les doublons** grâce au système de stockage
 - **Informations complètes** : nom, version, lien, description
 - **Mode test** pour valider sans spammer
 
 ### ⚙️ Configuration simplifiée
+
 - **Scripts npm** pour toutes les opérations
 - **Diagnostic automatique** des problèmes
 - **Configuration .env** avec détection auto
@@ -52,12 +56,12 @@ npm start
 
 ## 📊 Dépôts surveillés par défaut
 
-| Projet | Plateforme | Méthode |
-|--------|------------|---------|
-| **Eden Emu** | Forgejo | API + HTML |
-| **Citron Emu** | GitLab | API + HTML |
-| **Sudachi** | GitHub | API officielle |
-| **Torzu** | Forgejo via Tor | API + HTML (.onion) |
+| Projet         | Plateforme      | Méthode             |
+| -------------- | --------------- | ------------------- |
+| **Eden Emu**   | Forgejo         | API + HTML          |
+| **Citron Emu** | GitLab          | API + HTML          |
+| **Sudachi**    | GitHub          | API officielle      |
+| **Torzu**      | Forgejo via Tor | API + HTML (.onion) |
 
 ## 🛠️ Commandes disponibles
 
